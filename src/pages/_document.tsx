@@ -1,4 +1,6 @@
+
 import { Html, Head, Main, NextScript } from 'next/document'
+import { Toaster } from 'react-hot-toast'
 
 export default function Document() {
   return (
@@ -7,7 +9,9 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        
       </body>
+
     </Html>
   )
 }

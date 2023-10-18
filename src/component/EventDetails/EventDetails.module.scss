@@ -1,0 +1,175 @@
+
+.event-details{
+
+.top-section{
+    display: flex;
+    gap: 50px;;
+    flex-wrap: wrap;;
+max-width: 1200px;
+margin: 2rem auto ;
+ 
+    .left{
+        flex:2;
+            img{
+                border-radius: 8px;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                max-height: 450px;
+            }
+            .about{
+                padding: 1rem 0;
+                h2{
+                   padding-left:1rem  ; 
+                   margin: 1rem 0;
+                   border-left : 4px solid #EB5757;
+                   
+                }
+                p{
+                    line-height: 26px;
+                    word-spacing: 4px;
+                    color:#777E90;
+                         letter-spacing: 0.5px; 
+
+                }
+            }
+    }
+
+    .right{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        grid-gap: 20px;
+   
+    &>div{
+       
+        padding: 18px;
+        border-radius: 8px;
+        border: 1px solid #e1e3e6;
+        
+
+        h1{
+            margin-bottom: 1rem;
+        }
+        .icon-section{
+            display: flex;
+            gap:10px;
+            margin: 0.8rem 0;
+            flex-wrap: wrap;
+           
+                    svg{
+                        margin-top: 3px;
+                    }
+          
+            p{
+                font-weight: 600;
+                span{
+                    font-size: 0.85em;
+                    
+                    color: #777E90 ;
+                        letter-spacing: 0.5px; 
+                    word-spacing: 1px;;
+                }
+            }
+
+            .getdirection{
+                color:#EB5757;
+                display: flex;
+                gap: 5px;
+                align-items: center;
+                padding: 0.5rem;
+                
+                svg{
+                    margin: 0;
+                }
+            }
+        }
+        .shop-status{
+            display: flex;
+           
+            flex-wrap: wrap;
+            
+            margin: 1.2rem 0;
+            .getdirection{
+                color:#EB5757;
+                display: flex;
+                gap: 5px;
+                align-items: center;
+                padding: 0 1rem ;
+                
+                svg{
+                    margin: 0;
+                }
+            }
+            
+        }
+    }
+
+    .secound-div{
+        .icon-section{
+          
+            margin: 1.5rem 0;
+
+            p{
+                font-size: 1rem;
+              
+            }
+        }
+    }
+}
+}
+.booking-wrapper{
+    .days{
+      margin: 1rem 0;
+
+
+    
+        .container{
+      padding:1rem 1rem 0 1rem;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: flex-start;
+        overflow-x: scroll;
+
+        &::-webkit-scrollbar-thumb{
+          display: none;
+        }
+      .days-box-active{
+        border-radius: 20%;
+        border: 1px solid #EB5757;
+      padding: 1rem 2rem ;
+        background-color: #fff6f6;
+        width: fit-content;
+       span{
+        white-space: nowrap
+       }
+
+      }
+      .days-box{
+        border-radius: 15%;
+        border: 1px solid #9a9ea9;
+      padding: 1rem 2rem ;
+        background-color: white;
+        width: fit-content;
+        box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+        span{
+          white-space: nowrap
+         }
+      }
+
+   
+    }
+    }
+  }
+   
+}
+
+@media screen and (max-width:1000px) {
+   
+    .top-section{
+      flex-direction: column;
+      gap: 20px !important;
+
+}
+  }

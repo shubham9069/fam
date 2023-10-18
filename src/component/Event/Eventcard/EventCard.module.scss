@@ -1,0 +1,46 @@
+.wrapper{
+    border-radius: 20px;
+    border: 1px solid  #F4F5F6;
+    background: white;
+    
+    /* depth/1 */
+    box-shadow: 0px 8px 16px -8px rgba(15, 15, 15, 0.20);
+    
+    height: fit-content;
+   
+
+    
+img{
+    border-radius: 20px  20px 0 0  ;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+   
+    object-fit: cover;
+}
+
+.eventcard-content{
+    padding: 0.5rem 1rem;
+
+   
+h4{
+    margin-bottom: 10px;
+}
+ 
+  
+    div{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        span{
+            color:  #5b6276;
+            font-feature-settings: 'clig' off, 'liga' off;
+            
+            font-size: 0.8rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px; /* 184.615% */
+        }
+    }
+}
+}

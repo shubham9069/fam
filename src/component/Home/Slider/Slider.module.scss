@@ -1,0 +1,28 @@
+
+
+.slider-wrapper{
+    max-width: 2000px;
+    padding:2rem 0 ;
+
+    .slider-title{
+        display: flex;
+        justify-content: space-between;
+        gap:10px;
+        align-items: center;
+       padding: 1rem 4rem 1rem 4rem
+
+    }
+    a {
+        padding: 10px;
+    .slider-img{
+        border-radius: 12px;
+      
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      
+    
+    }
+    }
+
+}

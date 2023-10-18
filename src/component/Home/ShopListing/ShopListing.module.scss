@@ -1,0 +1,40 @@
+
+
+.wrapper{
+
+    .tag-container{
+        display: flex;
+        align-items: center;
+        gap:10px;
+
+        .span-inactive{
+            font-size: 0.8rem;
+padding: 13px 16px ;
+border-radius: 39px;
+border: 1px solid #E5E5E5;
+color:  #777E90;
+
+        }
+        .span-active{
+            font-size: 0.8rem;
+padding: 13px 16px ;
+border-radius: 39px;
+border: 1px solid transparent;
+color:  white;
+background-color: #EB5757;
+
+        }
+
+
+    }
+
+    .shoplisting-container{
+        display: flex;
+        padding: 2rem 0;
+        gap: 40px;
+        justify-content: center;
+        flex-wrap: wrap;
+
+
+    }
+}

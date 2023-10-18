@@ -1,0 +1,110 @@
+.banner-wrapper{
+    height: 100%;
+   
+    border-radius: 0px 0px 50px 50px;
+    display: flex;
+    flex-direction: column;
+grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 6px;
+
+    &::after{
+        content: "";
+        position: absolute;
+        top:0;
+       left:0;
+        height: inherit;
+        width: 100%;
+        background-color: #202123c5;
+        z-index: 1;
+        border-radius: 6px;
+    }
+
+div{
+    position: relative;
+    z-index: 11;
+    h3{
+        font-size: 1.5rem;
+        background: -webkit-linear-gradient(135deg, rgb(140, 97, 21) -85.92%, rgb(151, 109, 35) -56.81%, rgb(181, 142, 72) -27.7%, rgb(229, 195, 132) 1.41%, rgb(233, 199, 137) 30.52%, rgb(255, 234, 196) 59.63%, rgb(230, 185, 102) 88.75%, rgb(153, 111, 37) 117.86%) ;
+        // background: -webkit-linear-gradient(#eee, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: 2px;
+        
+
+     
+    }
+    span{
+        color:white;
+        font-size: 1rem;
+        font-style: italic;
+        font-family: cursive;
+    }
+
+}
+.sub-heading{
+    position: relative;
+    z-index: 11;
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+   max-width: 600px;
+    word-spacing: 2px;
+    line-height: 28px;
+}
+
+.banner-button{
+    position: relative;
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background-color: #202123;
+    color:white;
+    padding: 0.5rem 2rem;
+    margin: 0 auto ;
+
+    font-weight: 600;
+    cursor: pointer;
+}
+}
+
+.images{
+
+    display: grid;
+    gap:10px;
+    grid-template-columns: 50% 25% 25% ;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "img1 img2 img3"
+      "img1 img4 img5";
+     
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+    #img1{
+        grid-area: img1
+    }
+    #img2{
+        grid-area: img2
+    }
+    #img3{
+        grid-area: img3
+    }
+    #img4{
+        grid-area: img4
+    }
+    #img5{
+        grid-area: img5
+    }
+
+}

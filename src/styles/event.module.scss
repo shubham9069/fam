@@ -1,0 +1,22 @@
+
+
+.event-wrapper{
+    display: flex;
+
+
+
+    .event-listing{
+
+        border: 1px solid #e9e9ed ;
+       padding: 2rem;
+        height: 91vh;
+        width: 100%;
+       
+        gap: 2rem;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+     overflow: scroll;
+        
+    }
+}
